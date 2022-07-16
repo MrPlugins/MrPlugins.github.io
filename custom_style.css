@@ -1,0 +1,41 @@
+:root {
+	--content-max-width : auto;
+    --theme-hue: 153;
+    --theme-saturation: 47%;
+    --theme-lightness: 49%;
+	--mono-hue: 207;
+    --highlightColor: #d22778;
+}
+
+#docsify-darklight-theme {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+.markdown-section blockquote {
+    padding: 0.5em;
+}
+
+
+.markdown-section a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.markdown-section table td {
+    vertical-align: top;
+}
+
+.markdown-section table tbody tr:hover {
+    background: #1c6c48!important;
+}
+
+[data-doc-theme="light"] .markdown-section table tbody tr:hover{
+    background: #d5d5d5!important;
+}
+
+.markdown-section table thead th:empty {
+    display: none;
+}
